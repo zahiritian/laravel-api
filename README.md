@@ -11,16 +11,16 @@ Basic laravel api with authentication
 - `php artisan passport:install` this command will create the encryption keys needed to generate secure access tokens.
 
 ### API endpoints
-- Authenticate user and get access token
+Authenticate user and get access token
 - Method: POST,
 - Endpoint: `/api/login`,
 - Params: email, password
 
-- Get user's documents
+Get user's documents
 - Method: GET,
 - Endpoint: `/api/documents`
 
-- Store documents
+Store documents
 - Method: POST,
 - Endpoint: `/api/documents`,
 - Params: name, file (pdf)
